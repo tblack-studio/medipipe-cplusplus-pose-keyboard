@@ -5,6 +5,5 @@ Using mediapipe pose estimation as keyboard driver
     
     - Webcam is ready then run: 
         ```
-        GLOG_logtostderr=1 bazel-bin/src/pose_tracking/pose_tracking_cpu \
-  --calculator_graph_config_file=mediapipe/graphs/pose_tracking/pose_tracking_cpu.pbtxt
+        GLOG_logtostderr=1 bazel-bin/src/pose_tracking/pose_tracking_cpu --calculator_graph_config_file=mediapipe/graphs/pose_tracking/pose_tracking_cpu.pbtxt
         ```
